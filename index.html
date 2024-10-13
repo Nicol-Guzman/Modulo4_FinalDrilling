@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Info</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <img id="swlogo" src="./assets/img/starwarslogo.svg" alt="Star Wars Logo">
+  
+    <div class="container">
+        <div class="ranges">
+            <div class="range-wrapper">
+                <button class="range" data-range="1-5">Principales</button>
+            </div>
+            <div class="range-wrapper">
+                <button class="range" data-range="6-10">Secundarios</button>
+            </div>
+            <div class="range-wrapper">
+                <button class="range" data-range="11-15">Otros</button>
+            </div>
+        </div>
+
+        <div class="lightsaber-divider" id="lightsaber"></div>
+
+        <div class="character-sections">
+            <div id="section-1-5" class="character-section">
+                <h2>1-5</h2>
+                <div class="characters"></div>
+            </div>
+            <div id="section-6-10" class="character-section">
+                <h2>6-10</h2>
+                <div class="characters"></div>
+            </div>
+            <div id="section-11-15" class="character-section">
+                <h2>11-15</h2>
+                <div class="characters"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
